@@ -1,0 +1,24 @@
+.modelContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.contentBox,
+.borderBox {
+  width: 200px;
+  height: 200px;
+}
+
+.contentBox {
+  background-color: #863aff;
+  border: 5px solid #000;
+  box-sizing: content-box;
+  padding: 10px;
+}
+
+.borderBox {
+  background-color: #309bff;
+  border: 5px solid #000;
+  box-sizing: border-box;
+  padding: 10px;
+}
